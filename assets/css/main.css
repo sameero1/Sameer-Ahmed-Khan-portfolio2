@@ -801,7 +801,7 @@ section,
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 15px 40px rgba(0,0,0,0.3);
   border-color: var(--accent-color);
-  background: var(--surface-color);
+  background: #151f2b;
 }
 
 .project-card:hover h3,
