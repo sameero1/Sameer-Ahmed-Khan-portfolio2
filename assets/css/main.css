@@ -800,11 +800,13 @@ section,
 .project-card:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+  border-color: var(--accent-color);
+  background: rgba(20, 157, 221, 0.15);
 }
 
 /* Text */
 .project-card h3 {
-  color: #1b325c;
+  color: var(--accent-color);
 }
 
 .project-card p {
@@ -822,19 +824,19 @@ section,
 
 .btn-outline {
   padding: 8px 15px;
-  border: 1px solid #3498db;
+  border: 1px solid var(--accent-color);
   border-radius: 20px;
-  color: #3498db;
+  color: var(--accent-color);
   text-decoration: none;
   transition: 0.3s;
 }
 
 .btn-outline:hover {
-  background: #3498db;
+  background: var(--accent-color);
   color: white;
 }
 .project-card:hover {
-  box-shadow: 0 0 25px #3498db;
+  box-shadow: 0 0 25px var(--accent-color);
 }
 
 /*--------------------------------------------------------------
